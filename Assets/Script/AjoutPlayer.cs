@@ -9,6 +9,7 @@ public class AjoutPlayer : MonoBehaviour
 
     private bool zqsdJoined = false;
     private bool flechesJoined = false;
+    private bool gamePadJoined = false;
 
     void Update()
     {
@@ -47,12 +48,14 @@ public class AjoutPlayer : MonoBehaviour
         // Check for Gamepad joins
         foreach (var gamePad in Gamepad.all)
         {
-            if (gamePad.buttonSouth.wasPressedThisFrame)
+            if (gamePad.buttonSouth.wasPressedThisFrame && !gamePadJoined)
             {
                 // Note: You might want a way to prevent the same gamepad joining twice
                 PlayerInput.Instantiate(playerPrefab,
                     controlScheme: "Gamepad",
                     pairWithDevice: gamePad);
+                
+                gamePadJoined = true;
             }
         }
     }
