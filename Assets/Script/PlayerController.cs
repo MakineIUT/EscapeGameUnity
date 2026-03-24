@@ -1,55 +1,52 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-[RequireComponent(typeof(CharacterController))]
-
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField] private float vitesse = 5f;
+    [SerializeField] private float  hauteurSaut= 2f;
+    [SerializeField] private float gravite = -9.8f;
+    [SerializeField] private int playerIndex = 0;
+    
+
     private CharacterController controller;
-    private Vector3 playerVelocity;
-    private bool groundedPlayer;
-    private float playerSpeed = 2.0f;
-    private float jumpHeight = 1.0f;
-    private float gravityValue = -9.81f;
+    private Vector2 moveInput;
+    private Vector3 velocity;
 
-    private Vector3 move;
-
-    private void Awake()
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
     {
-        controller =GetComponent<CharacterController>();
+        controller = GetComponent<CharacterController>();
     }
 
+    public int GetPlayerIndex()
+    {
+        return playerIndex;
+    } 
+
+    public void OnMove(InputAction.CallbackContext context)
+    {
+        moveInput = context.ReadValue<Vector2>();
+        Debug.Log($"Move Input: {moveInput}");
+
+    }
+
+    public void OnJump(InputAction.CallbackContext context)
+    {
+        Debug.Log($"Jumping {context.performed} -Is Grounded: {controller.isGrounded}");
+        if (context.performed && controller.isGrounded)
+        {
+            Debug.Log("Le perso doit sauter");
+            velocity.y = Mathf.Sqrt(hauteurSaut * -2f * gravite);
+        }
+    }
+    // Update is called once per frame
     void Update()
     {
-        groundedPlayer = controller.isGrounded;
-        if (groundedPlayer && playerVelocity.y < 0)
-        {
-            playerVelocity.y = 0f;
-        }
+        Vector3 move = new Vector3(moveInput.x, 0, moveInput.y);
+        controller.Move(move * vitesse * Time.deltaTime);
 
-        controller.Move(move * Time.deltaTime * playerSpeed);
-
-        if (move != Vector3.zero)
-        {
-            gameObject.transform.forward = move;
-        }
-
-        // Makes the player jump
-        if (Input.GetButtonDown("Jump") && groundedPlayer)
-        {
-            playerVelocity.y += Mathf.Sqrt(jumpHeight * -2.0f * gravityValue);
-        }
-
-        playerVelocity.y += gravityValue * Time.deltaTime;
-        controller.Move(playerVelocity * Time.deltaTime);
+        velocity.y += gravite * Time.deltaTime;
+        controller.Move(velocity * Time.deltaTime);
     }
-
-    void OnMove(InputAction.CallbackContext context)
-    {
-        vector2 movement = context.ReadValue<vector2>();
-        move = new Vector3(movement.x, 0, movement.y);
-    }
-
 }
