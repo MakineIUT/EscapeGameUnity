@@ -10,9 +10,9 @@ public class PlayerInputHandler : MonoBehaviour
     private void Awake()
     {
         playerInput = GetComponent<PlayerInput>();
-        var playerControllers = FindObjectsOfType<PlayerController>();
+        // var playerControllers = FindObjectsOfType<PlayerController>();
         var index = playerInput.playerIndex;
-        playerController = playerControllers.FirstOrDefault(m => m.GetPlayerIndex() == index);
+        // playerController = playerControllers.FirstOrDefault(m => m.GetPlayerIndex() == index);
         
     }
 
