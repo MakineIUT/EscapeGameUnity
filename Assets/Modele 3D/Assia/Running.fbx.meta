@@ -29,7 +29,36 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: mixamo.com
+      takeName: mixamo.com
+      internalID: -203655887218126122
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -305,73 +334,73 @@ ModelImporter:
         length: 0
         modified: 0
     skeleton:
-    - name: Breathing Idle(Clone)
+    - name: Assia3d(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: CIL
-      parentName: Breathing Idle(Clone)
+      parentName: Assia3d(Clone)
       position: {x: -0.1337324, y: 1.3013842, z: 0.2107217}
       rotation: {x: -0.044660024, y: -0.16867213, z: 0.098210365, w: 0.97975}
       scale: {x: 98.268295, y: 9.125072, z: 111.1605}
     - name: CORP
-      parentName: Breathing Idle(Clone)
+      parentName: Assia3d(Clone)
       position: {x: -0, y: 0.7271881, z: 0}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
       scale: {x: 91.35458, y: 91.35458, z: 91.35458}
     - name: Camera
-      parentName: Breathing Idle(Clone)
+      parentName: Assia3d(Clone)
       position: {x: -0.5881359, y: 1.637547, z: 1.9023865}
       rotation: {x: -0.04305469, y: -0.9400143, z: 0.31267497, w: -0.1294366}
       scale: {x: 100, y: 100, z: 100}
     - name: MEMBRES
-      parentName: Breathing Idle(Clone)
+      parentName: Assia3d(Clone)
       position: {x: -0, y: -0.018670619, z: 0}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
       scale: {x: 100, y: 100, z: 100}
     - name: OEUIL
-      parentName: Breathing Idle(Clone)
+      parentName: Assia3d(Clone)
       position: {x: -0.11781021, y: 1.2659045, z: 0.20838526}
       rotation: {x: -0.04014, y: -0.18933599, z: 0.18936211, w: 0.96264356}
       scale: {x: 99.99999, y: 100, z: 99.99999}
     - name: PIED
-      parentName: Breathing Idle(Clone)
+      parentName: Assia3d(Clone)
       position: {x: -0.09161998, y: 0, z: 0}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
       scale: {x: 97.92533, y: 100, z: 100}
     - name: SHORTS.001
-      parentName: Breathing Idle(Clone)
+      parentName: Assia3d(Clone)
       position: {x: -0.08722316, y: 0.42840746, z: -0.023459733}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
       scale: {x: 95.43195, y: 95.43195, z: 95.43195}
     - name: SOURCIL
-      parentName: Breathing Idle(Clone)
+      parentName: Assia3d(Clone)
       position: {x: -0.1279747, y: 1.3307141, z: 0.20182702}
       rotation: {x: -0.032564458, y: -0.23203321, z: 0.07287749, w: 0.96942717}
       scale: {x: 45.67601, y: 64.02539, z: 88.71496}
     - name: Spot
-      parentName: Breathing Idle(Clone)
+      parentName: Assia3d(Clone)
       position: {x: -0.30752653, y: 1.9903377, z: 2.15417}
       rotation: {x: 0.9758035, y: 0, z: 0, w: 0.21864942}
       scale: {x: 100, y: 100, z: 100}
     - name: TETE.001
-      parentName: Breathing Idle(Clone)
+      parentName: Assia3d(Clone)
       position: {x: -0, y: 1.2525654, z: 0.042851593}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
       scale: {x: 24.57728, y: 23.00853, z: 23.385023}
     - name: TETE.002
-      parentName: Breathing Idle(Clone)
+      parentName: Assia3d(Clone)
       position: {x: -0, y: 1.2525654, z: 0.042851593}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
       scale: {x: 25.98362, y: 24.325106, z: 24.72314}
     - name: VESTE
-      parentName: Breathing Idle(Clone)
+      parentName: Assia3d(Clone)
       position: {x: -0, y: 0.7271881, z: 0}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
       scale: {x: 100, y: 100, z: 100}
     - name: mixamorig:Hips
-      parentName: Breathing Idle(Clone)
+      parentName: Assia3d(Clone)
       position: {x: -0.0039229933, y: 0.5218411, z: -0.0057456493}
       rotation: {x: 0.00000002328307, y: -1.164152e-10, z: 0.0000000010368242, w: 1}
       scale: {x: 0.99999994, y: 1, z: 0.99999994}
@@ -547,7 +576,7 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 996433d81bc3bb94c93b6c1c1362b7c1, type: 3}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 400cb03998d3f0d4d8a208066f73292b, type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
