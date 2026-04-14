@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float rotationSpeed = 720f; // Degrees per second
     [SerializeField] private float vitesse = 5f;
-    [SerializeField] private float  hauteurSaut= 1f;
+    [SerializeField] private float  hauteurSaut= 0.5f;
     [SerializeField] private float gravite = -9.8f;
 
     
