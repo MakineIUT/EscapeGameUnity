@@ -7,11 +7,10 @@ Si c'est chaud dit moi il reste aussi la cover du jeu à faire tu sinon.
 '''
 
 ### _**Missions**_ :
-'''
+
         - Créer un systeme d'interaction simple ;
         - Le joueur doit pouvoir déplacer certains objet (ex. table ) ;
         - Le joueur doit pouvoir ramasser et stock certains objet (ex. clé ) ;
-'''
         
 
 ### _**Ressources**_ :
