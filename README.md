@@ -14,7 +14,7 @@ Si c'est chaud dit moi il reste aussi la cover du jeu à faire tu sinon.
         
 
 ### _**Ressources**_ :
->  ### https://youtu.be/THmW4YolDok?si=eUB-7audkRqoDL47
->  ### https://youtu.be/K06lVKiY-sY?si=k-02qf1qMRIX8UxF
->  ### https://youtu.be/cLzG1HDcM4s?si=1dAurGLzL5-SdgtG
+>  - ### https://youtu.be/THmW4YolDok?si=eUB-7audkRqoDL47
+>  - ### https://youtu.be/K06lVKiY-sY?si=k-02qf1qMRIX8UxF
+>  - ### https://youtu.be/cLzG1HDcM4s?si=1dAurGLzL5-SdgtG
 
