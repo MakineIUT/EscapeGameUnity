@@ -12,7 +12,7 @@ guides des taches à réaliser j'ai mis un lien de tutoriel pour aider mais tu e
 
 ### **Ressources** :
 > - ### (tuto) https://youtu.be/HwdweCX5aMI?si=GDKBLIEMENDQlwCp
-> - ### (tuto) https://youtu.be/JivuXdrIHK0?si=Y5oBFZ_SXY750NBV
+> - ### (image Manette) https://youtu.be/JivuXdrIHK0?si=Y5oBFZ_SXY750NBV
 > - ### (image Manette) https://github.com/MakineIUT/EscapeGame/blob/main/Manette%20%26%20Commandes%20(11).png
 
 
