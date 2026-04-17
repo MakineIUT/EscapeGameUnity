@@ -11,8 +11,8 @@ guides des taches à réaliser j'ai mis un lien de tutoriel pour aider mais tu e
 
 
 ### **Ressources** :
-> - ### https://youtu.be/HwdweCX5aMI?si=GDKBLIEMENDQlwCp
-> - ### https://youtu.be/JivuXdrIHK0?si=Y5oBFZ_SXY750NBV
+> - ### (tuto) https://youtu.be/HwdweCX5aMI?si=GDKBLIEMENDQlwCp
+> - ### (tuto) https://youtu.be/JivuXdrIHK0?si=Y5oBFZ_SXY750NBV
 > - ### (Lien vers l'image de la Manette) https://github.com/MakineIUT/EscapeGame/blob/main/Manette%20%26%20Commandes%20(11).png
 
 
