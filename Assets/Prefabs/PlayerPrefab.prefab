@@ -165,7 +165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 692dfc48478b36b45af2e3639f33082b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  footStepsSFX: {fileID: 8300000, guid: 2b976567f6fc78a4d8e4da34d6c442ed, type: 3}
+  footStepsSFX: {fileID: 8300000, guid: 7f31c972dfa495d43bf9173c79ca452e, type: 3}
 --- !u!1001 &2025629642318023291
 PrefabInstance:
   m_ObjectHideFlags: 0
