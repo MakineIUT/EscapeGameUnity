@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1815912658421061657}
   - component: {fileID: 4317043588573695571}
   - component: {fileID: 1670465379522526756}
+  - component: {fileID: -2441079347550441947}
   m_Layer: 0
   m_Name: PlayerPrefab
   m_TagString: Player
@@ -77,6 +78,7 @@ MonoBehaviour:
   vitesse: 5
   hauteurSaut: 2
   gravite: -9.8
+  moveInput: {x: 0, y: 0}
 --- !u!114 &4317043588573695571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -151,6 +153,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d840f0ce9fc65a44bba862875175ed77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-2441079347550441947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6722955209545499623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 692dfc48478b36b45af2e3639f33082b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footStepsSFX: {fileID: 8300000, guid: 2b976567f6fc78a4d8e4da34d6c442ed, type: 3}
 --- !u!1001 &2025629642318023291
 PrefabInstance:
   m_ObjectHideFlags: 0

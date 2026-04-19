@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
 
     private Animator animator;
     private CharacterController controller;
-    private Vector2 moveInput;
+    public Vector2 moveInput;
     private Vector3 velocity;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
