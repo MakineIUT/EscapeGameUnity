@@ -11,9 +11,12 @@ guides des taches à réaliser j'ai mis un lien de tutoriel pour aider mais tu e
 
 
 ### **Ressources** :
-> - ### (tuto menus principale) https://youtu.be/HwdweCX5aMI?si=GDKBLIEMENDQlwCp
-> - ### (tuto menu pause) https://youtu.be/JivuXdrIHK0?si=Y5oBFZ_SXY750NBV
-> - ### (Image manette) https://github.com/MakineIUT/EscapeGameAssets/blob/d4f612879b4bd0deb24362fa2ad2fe07fa948a99/Manette%20%26%20Commandes.svg
+> - ### (tuto menus principale) 
+https://youtu.be/HwdweCX5aMI?si=GDKBLIEMENDQlwCp
+> - ### (tuto menu pause) 
+https://youtu.be/JivuXdrIHK0?si=Y5oBFZ_SXY750NBV
+> - ### (Image manette) 
+https://github.com/MakineIUT/EscapeGameAssets/blob/d4f612879b4bd0deb24362fa2ad2fe07fa948a99/Manette%20%26%20Commandes.svg
 
 
 
