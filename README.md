@@ -5,7 +5,7 @@ https://docs.google.com/document/d/1VaNyqmGiMpdFy4AjQ6a4_Y_wztSmhMT9f2ZIr2SmLkg/
 
 https://docs.google.com/document/d/1Br3kL16eqvkg86r7GAv27PCTunecvwJjlYaZ91VRuTg/edit?usp=sharing
 
-_*La branche la plus à jours est la branche Multijoueur*_
+_**La branche la plus à jours est la branche Multijoueur**_
 ## Intro
 
 La classe de Patrick est un platformer à énigmes dans la lignée de jeux comme "Hello Neighbor" ou "yapyap".
