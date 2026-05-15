@@ -4413,6 +4413,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   keyName: "Cl\xE9 Secr\xE8te"
+--- !u!65 &264908850
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264908846}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 6, y: 6, z: 6}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &267013286
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13509,7 +13530,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22e1bc2ed55fcf145991c2d6a199d096, type: 3}
       propertyPath: m_Name
-      value: "Cl\xE9"
+      value: Cadena
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -27794,11 +27815,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 22e1bc2ed55fcf145991c2d6a199d096, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.05
+      value: 10.249
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 22e1bc2ed55fcf145991c2d6a199d096, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.562
+      value: -0.334
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 22e1bc2ed55fcf145991c2d6a199d096, type: 3}
       propertyPath: m_LocalPosition.z
@@ -27838,15 +27859,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4292154010595695564, guid: 22e1bc2ed55fcf145991c2d6a199d096, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.18
+      value: -2.07
       objectReference: {fileID: 0}
     - target: {fileID: -4292154010595695564, guid: 22e1bc2ed55fcf145991c2d6a199d096, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.01
+      value: 0.68
       objectReference: {fileID: 0}
     - target: {fileID: -4292154010595695564, guid: 22e1bc2ed55fcf145991c2d6a199d096, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.98
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -4292154010595695564, guid: 22e1bc2ed55fcf145991c2d6a199d096, type: 3}
       propertyPath: m_LocalRotation.w
@@ -27874,7 +27895,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22e1bc2ed55fcf145991c2d6a199d096, type: 3}
       propertyPath: m_Name
-      value: cadena
+      value: "Cl\xE9"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -27885,6 +27906,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 22e1bc2ed55fcf145991c2d6a199d096, type: 3}
       insertIndex: -1
       addedObject: {fileID: 264908848}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 22e1bc2ed55fcf145991c2d6a199d096, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 264908850}
   m_SourcePrefab: {fileID: 100100000, guid: 22e1bc2ed55fcf145991c2d6a199d096, type: 3}
 --- !u!4 &1678881646 stripped
 Transform:
