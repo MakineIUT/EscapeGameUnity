@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4317043588573695571}
   - component: {fileID: 1670465379522526756}
   - component: {fileID: -2441079347550441947}
+  - component: {fileID: 6223092904782111471}
   m_Layer: 0
   m_Name: PlayerPrefab
   m_TagString: Player
@@ -166,6 +167,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   footStepsSFX: {fileID: 8300000, guid: 7f31c972dfa495d43bf9173c79ca452e, type: 3}
+--- !u!114 &6223092904782111471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6722955209545499623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b82fc63bf374a2145b346c55f540dc48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionDistance: 3
+  interactionKey: 101
 --- !u!1001 &2025629642318023291
 PrefabInstance:
   m_ObjectHideFlags: 0
